@@ -2,15 +2,42 @@
 
 Test rig for prototyping / testing of 24V latching relay circuits
 
+## Comments
+
+Notes form actual version built:
+
+- the inputs labelled ON and OFF are reversed. This relates to the polarity of the relay (Omron)
+
+- The service pin part of the circuit was not populated as the switch is likely to burn out the mcu if grounded during the part of the duty cycle when the pin is an output (if high)
+
+- Q4 was a SOT23 on the pcb, actual part was smaller SOT323
+
+- We did not measure the output current at the mcu pins, however SPICE modelling shows a peak of 9mA at switch on at Q4, for a brief period. It may be safer to use a small gate resistor, 150R reduces current to 3.5mA.
+  Peak current at Q2/Q2 was under 3mA
+
+- MOV was not populated
+
+- Coil pins on relay are smaller than load pins so pattern needs altering
+
+- Jumpers for swapping the coil polarity used standard vias - these were too small so filled with solder mask and were hard to actually solder.
+
+- The pads for the TH diode were quite small, so hard to solder
+
+- Is the diode required ? A small spike was seen on the scope with the diode in place. With it removed a 3v spike was observed when switching. Given the eBOS (12v vs 24v in our design) circuit did not include it, we can safely omit it. (Coil current of 25mA will run through the 390R resistor, giving 9.75V plus 24v rail. This is less than Vds of MOSFET).
+
+- The coil took a min of 5mSec to operate reliably, would recommend a longer time in a production setting. NB: modelling using a resistive load showed 1uSec but this does not account for the inductive nature of the coil.
+
+- Resistor R5 briefly passes 60mA (390R) or 75ma (330R), at 24v this is 1.44W or 1.8W. Is a higher rated resistor needed ?
+
 ## Specifications
 
 Input: 23-27v DC for relay. 
 
 3v3 for logic
 
-Based on eBOS Lonworks RON03 output node with mosfet driver for single coild latching relay. Adds extra resistor to drop gate to source voltage under 20v, and a 1N4148 to protect Q3 mosfet from spikes caused by collapse of coil magnetic field.
+Based on eBOS Lonworks RON03 output node with mosfet driver for single coil latching relay. Adds extra resistor to drop Vgs (gate to source voltage) under 20v, and a 1N4148 to protect Q3 mosfet from spikes caused by collapse of coil magnetic field.
 
-Also used to prototype the Service Pin functionality
+~~Also used to prototype the Service Pin functionality~~
 
 ## Components
 
