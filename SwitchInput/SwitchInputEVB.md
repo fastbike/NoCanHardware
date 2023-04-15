@@ -6,17 +6,17 @@ Test rig for prototyping / testing of NoCan switch input nodes
 
 Inputs: 
 
-- Switch with LED Feedback
+- Momentary switch with LED Feedback
 
-- DS1820 temp sensor
+- DS1820 temp sensor (One Wire)
 
 - PDL occupancy sensor
 
-- EXternal Occupancy sensor
+- External occupancy sensor (Optex LX-402)
 
 - Internal security PIR
 
-- Smoke sensor
+- Smoke sensor (Bosch D273)
 
 Also used to prototype the Service Pin functionality
 
