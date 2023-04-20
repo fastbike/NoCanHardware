@@ -6,14 +6,15 @@ Test rig for prototyping / testing of 24V latching relay circuits
 
 Notes form actual version built:
 
-- the inputs labelled ON and OFF are reversed. This relates to the polarity of the relay (Omron)
+- the inputs labelled ON and OFF are reversed. This relates to the polarity of the relay (Omron) - think the datsheet pins 1&8 are wrong.
 
 - The service pin part of the circuit was not populated as the switch is likely to burn out the mcu if grounded during the part of the duty cycle when the pin is an output (if high)
 
 - Q4 was a SOT23 on the pcb, actual part was smaller SOT323
 
-- We did not measure the output current at the mcu pins, however SPICE modelling shows a peak of 9mA at switch on at Q4, for a brief period. It may be safer to use a small gate resistor, 150R reduces current to 3.5mA.
-  Peak current at Q2/Q2 was under 3mA
+- We did not measure the output current at the mcu pins, however SPICE modelling shows a peak of 11mA at switch on at Q1, for a brief period. It may be safer to use a small gate resistor, 150R shows this reducing the current to 3.6mA.
+  Peak current at Q2/Q2 was under 3mA, but a gate resistor is added for good measure.
+  Also, the Neuron chip could easily source in excess of 20mA at 5v, this did not seem to cause a problem in practice but for the sake of 2 additional resistors per channel it is cheap protection.
 
 - MOV was not populated
 
@@ -25,7 +26,7 @@ Notes form actual version built:
 
 - Is the diode required ? A small spike was seen on the scope with the diode in place. With it removed a 3v spike was observed when switching. Given the eBOS (12v vs 24v in our design) circuit did not include it, we can safely omit it. (Coil current of 25mA will run through the 390R resistor, giving 9.75V plus 24v rail. This is less than Vds of MOSFET).
 
-- The coil took a min of 5mSec to operate reliably, would recommend a longer time in a production setting. NB: modelling using a resistive load showed 1uSec but this does not account for the inductive nature of the coil.
+- The coil took a min of 5mSec to operate reliably, would recommend a longer time in a production setting. NB: modelling using a resistive load showed 1mSec but this does not account for the inductive nature of the coil.
 
 - Resistor R5 briefly passes 60mA (390R) or 75ma (330R), at 24v this is 1.44W or 1.8W. Is a higher rated resistor needed ?
 
