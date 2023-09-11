@@ -1,0 +1,159 @@
+<openpnp-board version="1.1" name="Relay3Channel_v1a.board.xml">
+   <dimensions units="Millimeters" x="86.5" y="50.0" z="0.0" rotation="0.0"/>
+   <placements>
+      <placement version="1.4" side="Top" id="C1" part-id="C4mmELECT-4u7_10v" type="Placement" enabled="true">
+         <location units="Millimeters" x="9.4" y="15.0" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="D10" part-id="SOD123-MMSZ12T1G" type="Placement" enabled="true">
+         <location units="Millimeters" x="19.0" y="46.2" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="D11" part-id="SOT23-ESD2CAN24" type="Placement" enabled="true">
+         <location units="Millimeters" x="10.4" y="23.3" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q10" part-id="SOT23-DMP6350S-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="14.8" y="46.2" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q1_1" part-id="SOT23-DMN65D8L-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="46.8" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q1_2" part-id="SOT23-DMN65D8L-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="30.6" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q1_3" part-id="SOT23-DMN65D8L-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="14.1" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q2_1" part-id="SOT23-DMN65D8L-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="30.6" y="46.8" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q2_2" part-id="SOT23-DMN65D8L-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="30.6" y="30.6" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q2_3" part-id="SOT23-DMN65D8L-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="30.6" y="14.1" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q3_1" part-id="SOT23-DMN65D8L-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="30.6" y="36.2" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q3_2" part-id="SOT23-DMN65D8L-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="30.6" y="20.0" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q3_3" part-id="SOT23-DMN65D8L-7" type="Placement" enabled="true">
+         <location units="Millimeters" x="30.6" y="3.5" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q4_1" part-id="SOT23-BSS84AK" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="40.3" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q4_2" part-id="SOT23-BSS84AK" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="24.1" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="Q4_3" part-id="SOT23-BSS84AK" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="7.6" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R10" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="22.4" y="46.1" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R1_1" part-id="R0603-150RJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.5" y="45.7" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R1_2" part-id="R0603-150RJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.5" y="29.5" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R1_3" part-id="R0603-150RJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.5" y="13.0" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R2_1" part-id="R0603-150RJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.5" y="40.3" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R2_2" part-id="R0603-150RJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.5" y="24.1" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R2_3" part-id="R0603-150RJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.5" y="7.6" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R3_1" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="30.9" y="43.7" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R3_2" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="30.9" y="27.5" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R3_3" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="30.9" y="11.0" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R4_1" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.5" y="36.2" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R4_2" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.5" y="20.0" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R4_3" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="27.5" y="3.5" z="0.0" rotation="90.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R5_1" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="43.7" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R5_2" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="27.5" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R5_3" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="11.0" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R6_1" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="31.5" y="40.3" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R6_2" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="31.5" y="24.1" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R6_3" part-id="R0603-10KJ" type="Placement" enabled="true">
+         <location units="Millimeters" x="31.5" y="7.6" z="0.0" rotation="270.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R7_1" part-id="R0805-390RJ-0W5" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="36.9" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R7_2" part-id="R0805-390RJ-0W5" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="20.7" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="R7_3" part-id="R0805-390RJ-0W5" type="Placement" enabled="true">
+         <location units="Millimeters" x="34.9" y="4.2" z="0.0" rotation="180.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+   </placements>
+   <fiducials/>
+   <solder-paste-pads/>
+</openpnp-board>

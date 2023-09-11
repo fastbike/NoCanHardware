@@ -1,0 +1,33 @@
+<openpnp-panel name="Relay3Channel_v1a.panel.xml" version="2.0">
+   <dimensions units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+   <placements>
+      <placement version="1.4" side="Top" id="FID1" part-id="FIDUCIAL" type="Fiducial" enabled="true">
+         <location units="Millimeters" x="-15.0" y="-2.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="FID2" part-id="FIDUCIAL" type="Fiducial" enabled="true">
+         <location units="Millimeters" x="90.0" y="-2.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="FID3" part-id="FIDUCIAL" type="Fiducial" enabled="true">
+         <location units="Millimeters" x="-15.0" y="161.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+      <placement version="1.4" side="Top" id="FID4" part-id="FIDUCIAL" type="Fiducial" enabled="true">
+         <location units="Millimeters" x="90.0" y="161.0" z="0.0" rotation="0.0"/>
+         <error-handling>Alert</error-handling>
+      </placement>
+   </placements>
+   <children>
+      <object class="org.openpnp.model.BoardLocation" side="Top" id="Brd1[1,1]" file-name="D:\OpenPNP\davidm\Relay3Channel_v1a.board.xml" check-fiducials="false" locally-enabled="true">
+         <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+      </object>
+      <object class="org.openpnp.model.BoardLocation" side="Top" id="Brd1[2,1]" file-name="D:\OpenPNP\davidm\Relay3Channel_v1a.board.xml" check-fiducials="false" locally-enabled="true">
+         <location units="Millimeters" x="0.0" y="53.0" z="0.0" rotation="0.0"/>
+      </object>
+      <object class="org.openpnp.model.BoardLocation" side="Top" id="Brd1[3,1]" file-name="D:\OpenPNP\davidm\Relay3Channel_v1a.board.xml" check-fiducials="false" locally-enabled="true">
+         <location units="Millimeters" x="0.0" y="106.0" z="0.0" rotation="0.0"/>
+      </object>
+   </children>
+   <pseudo-placement-ids/>
+</openpnp-panel>
