@@ -3,8 +3,8 @@
       <dimensions units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
       <placements/>
       <children>
-         <object class="org.openpnp.model.PanelLocation" side="Top" id="Pnl1" file-name="D:\OpenPNP\davidm\Relay3Channel_v1a.panel.xml" check-fiducials="true" locally-enabled="true">
-            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         <object class="org.openpnp.model.PanelLocation" side="Top" id="Pnl1" file-name="D:\OpenPNP\davidm\RelayNode\Relay3Channel_v1a.panel.xml" check-fiducials="true" locally-enabled="true">
+            <location units="Millimeters" x="49.23446894182234" y="129.3734021368033" z="-38.3" rotation="-0.3086986749238258"/>
          </object>
       </children>
       <pseudo-placement-ids/>

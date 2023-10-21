@@ -66,31 +66,31 @@
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R10" part-id="R0603-10KJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="22.4" y="46.1" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="22.4" y="46.1" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R1_1" part-id="R0603-150RJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="27.5" y="45.7" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="27.5" y="45.7" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R1_2" part-id="R0603-150RJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="27.5" y="29.5" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="27.5" y="29.5" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R1_3" part-id="R0603-150RJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="27.5" y="13.0" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="27.5" y="13.0" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R2_1" part-id="R0603-150RJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="27.5" y="40.3" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="27.5" y="40.3" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R2_2" part-id="R0603-150RJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="27.5" y="24.1" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="27.5" y="24.1" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R2_3" part-id="R0603-150RJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="27.5" y="7.6" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="27.5" y="7.6" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R3_1" part-id="R0603-10KJ" type="Placement" enabled="true">
@@ -130,15 +130,15 @@
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R6_1" part-id="R0603-10KJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="31.5" y="40.3" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="31.5" y="40.3" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R6_2" part-id="R0603-10KJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="31.5" y="24.1" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="31.5" y="24.1" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R6_3" part-id="R0603-10KJ" type="Placement" enabled="true">
-         <location units="Millimeters" x="31.5" y="7.6" z="0.0" rotation="270.0"/>
+         <location units="Millimeters" x="31.5" y="7.6" z="0.0" rotation="90.0"/>
          <error-handling>Alert</error-handling>
       </placement>
       <placement version="1.4" side="Top" id="R7_1" part-id="R0805-390RJ-0W5" type="Placement" enabled="true">
